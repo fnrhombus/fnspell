@@ -1,0 +1,12 @@
+{
+  "name": "@fnspell/tests",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "fnspell": "workspace:*",
+    "vitest": "^3.0.0"
+  }
+}

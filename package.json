@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "pnpm": {
+    "onlyBuiltDependencies": ["esbuild"]
+  },
+  "scripts": {
+    "build": "pnpm -r --filter=./packages/core build",
+    "test": "pnpm -r --filter=./packages/tests test"
+  }
+}
